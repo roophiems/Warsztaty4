@@ -1,0 +1,72 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<title>Book Shelf</title>
+	<style>
+	</style>
+
+</head>
+<body>
+
+<div class="container">
+	<div class="row">
+		<div class="col-sm text-center">
+			<h1>BOOK SHELF</h1>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm text-center">
+			<div class="card">
+				<div class="card-header">
+					Add Book
+				</div>
+				<div class="card-body">
+					<div class="row">
+						<form class="form-inline">
+							<div class="form-group mb-2 p-1">
+								<label for="isbn">ISBN:</label>
+								<input type="text" id="isbn" class="form-control">
+							</div>
+							<div class="form-group mb-2 p-1">
+								<label for="title">Title:</label>
+								<input type="text" id="title" class="form-control">
+							</div>
+							<div class="form-group mb-2 p-1">
+								<label for="author">Author:</label>
+								<input type="text" id="author" class="form-control">
+							</div>
+							<div class="form-group mb-2 p-1">
+								<label for="publisher">Publisher:</label>
+								<input type="text" id="publisher" class="form-control">
+							</div>
+							<div class="form-group mb-2 p-1">
+								<label for="type">Type:</label>
+								<input type="text" id="type" class="form-control">
+							</div>
+							<button type="submit" id="saveBook" class="btn btn-primary mb-2 ">Save</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm text-center">
+			<h2>Books</h2>
+		</div>
+	</div>
+	<div class="accordion" id="booksAccordion">
+	</div>
+</div>
+
+
+<!-- Bootstrap and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+<script src="js/rozgrzewka.js"></script>
+</body>
+</html>
